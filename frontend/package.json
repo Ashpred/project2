@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "blog-app-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.2",
     "axios": "^1.8.4",
-    "prop-types": "^15.8.1",
+    "framer-motion": "^12.6.3",
+    "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.4.0"
+    "react-router-dom": "^7.5.0",
+    "three": "^0.175.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -25,6 +29,6 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "vite": "^6.2.0"
+    "vite": "^6.2.5"
   }
-}
+} 
